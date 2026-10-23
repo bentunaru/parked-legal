@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parked — Support</title>
+<style>
+  :root { --accent: #FF6B3D; --ink: #1c1c22; --muted: #5d5d68; --bg: #fbf7f4; --card: #ffffff; --hair: #f0e6e0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --accent: #FF8A63; --ink: #f2f1f7; --muted: #a6a4b4; --bg: #161312; --card: #1f1a18; --hair: #2e2724; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 22px 80px; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .dot { width: 34px; height: 34px; border-radius: 50%;
+    background: conic-gradient(from 210deg, var(--accent), #ffc3ad 70%, transparent); }
+  h1 { font-size: 30px; letter-spacing: -.02em; margin: 24px 0 4px; }
+  h2 { font-size: 21px; letter-spacing: -.01em; margin: 34px 0 8px; }
+  h3 { font-size: 18px; margin: 26px 0 6px; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  .card { background: var(--card); border: 1px solid var(--hair); border-radius: 18px; padding: 18px 20px; margin-top: 16px; }
+  ul { padding-left: 20px; }
+  li { margin: 8px 0; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><div class="dot"></div><strong>Parked</strong></header>
+  <h1>Support</h1>
+  <p class="muted">We’re happy to help.</p>
+
+  <div class="card">
+    <p><strong>Email us:</strong> <a href="mailto:benjamin.tunaru@gmail.com">benjamin.tunaru@gmail.com</a><br>
+    We aim to reply within a couple of business days. Please include your iPhone or Apple Watch model, your iOS or watchOS version, and the app version (shown in the app’s <em>Settings → About</em>).</p>
+  </div>
+
+  <h2>How Parked works</h2>
+  <ul>
+    <li>Tap <strong>Park Here</strong> to save your current spot. Parked shows the street name and the time.</li>
+    <li>When you come back, the card shows the distance and a compass arrow pointing to your car.</li>
+    <li>Tap <strong>Walk There</strong> for walking directions in Apple Maps.</li>
+    <li>Tap <strong>Found It</strong> to clear the spot.</li>
+    <li>On Apple Watch, park and find from your wrist. Parking on one device updates the other.</li>
+  </ul>
+
+  <h2>Frequently asked</h2>
+
+  <h3>Do I need an account?</h3>
+  <p>No. Parked has no account and no sign-in. Your parking spot stays on your devices.</p>
+
+  <h3>Why does Parked ask for my location?</h3>
+  <p>Location is used only while the app is open, to save your parking spot and to show the distance and direction back to it. You can change this at any time in <em>Settings → Privacy &amp; Security → Location Services → Parked</em>.</p>
+
+  <h3>The compass arrow doesn’t appear</h3>
+  <p>The arrow needs a device with a compass and a heading signal. Indoors, in underground car parks, or on older Apple Watch models the arrow may be hidden; the distance and the map still work. Moving a few steps in the open usually brings it back.</p>
+
+  <h3>The distance seems wrong right after parking</h3>
+  <p>GPS accuracy improves over a few seconds. If Parked shows “Improving accuracy…”, wait a moment before tapping Park Here, or tap <em>Park Here Instead</em> in Settings to replace the spot.</p>
+
+  <h3>Walk There opens the browser instead of Apple Maps</h3>
+  <p>Parked hands off to the Apple Maps app. If Maps has been removed from your iPhone, reinstall it from the App Store; until then, Parked opens the same directions in Safari.</p>
+
+  <h3>My Apple Watch doesn’t show the spot I saved on my iPhone</h3>
+  <p>Open Parked on both devices once and keep them nearby. The spot is sent directly between your iPhone and Apple Watch; it never goes through a server. If the watch was out of range, it catches up the next time the app opens.</p>
+
+  <h3>Metric or imperial distances?</h3>
+  <p>Parked follows your region by default. Choose <em>Metric</em> or <em>Imperial</em> in the app’s Settings; the Apple Watch app follows the iPhone setting.</p>
+
+  <h3>How is my privacy handled?</h3>
+  <p>See our <a href="privacy-policy.html">Privacy Policy</a>. In short: no tracking, no ads, no accounts, and your parking spot never leaves your devices.</p>
+
+  <footer>© 2026 Benjamin Tunaru. This page is the app’s official support page referenced from the App Store listing.</footer>
+</div>
+</body>
+</html>

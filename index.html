@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parked</title>
+<style>
+  :root { --accent: #FF6B3D; --ink: #1c1c22; --muted: #5d5d68; --bg: #fbf7f4; --hair: #f0e6e0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --accent: #FF8A63; --ink: #f2f1f7; --muted: #a6a4b4; --bg: #161312; --hair: #2e2724; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .wrap { max-width: 560px; margin: 0 auto; padding: 80px 22px; text-align: center; }
+  .dot { width: 56px; height: 56px; border-radius: 50%; margin: 0 auto 18px;
+    background: conic-gradient(from 210deg, var(--accent), #ffc3ad 70%, transparent); }
+  h1 { font-size: 32px; letter-spacing: -.02em; margin: 0 0 6px; }
+  p { color: var(--muted); }
+  .links { margin-top: 28px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  a.btn { color: var(--accent); text-decoration: none; border: 1px solid var(--hair);
+    padding: 12px 18px; border-radius: 999px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="dot"></div>
+  <h1>Parked</h1>
+  <p>Remember where you parked and find your car in one tap — for iPhone and Apple Watch.</p>
+  <div class="links">
+    <a class="btn" href="privacy-policy.html">Privacy Policy</a>
+    <a class="btn" href="support.html">Support</a>
+  </div>
+</div>
+</body>
+</html>
